@@ -32,8 +32,8 @@ const Projects = () => {
       // live: "https://example.com"
     },
     {
-      title: "Calculater",
-      description: "Simple Calculater",
+      title: "Calculator",
+      description: "Simple Calculator",
       image: Image4,
       tech: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/prasadparve1255/Calculater",

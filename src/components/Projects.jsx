@@ -1,7 +1,9 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
-import Image from '../assets/DCMS.png';
-import Image2 from '../assets/Student_Panel.png';
+import Image from '../assets/DCMS.webp';
+import Image2 from '../assets/Student_Panel.webp';
+import Image3 from '../assets/UniAttend.webp';
+import Image4 from '../assets/Calculator.webp';
 
 const Projects = () => {
   const projects = [
@@ -22,20 +24,20 @@ const Projects = () => {
       // live: "https://example.com"
     },
     {
-      title: "Weather Dashboard",
-      description: "Beautiful weather app with detailed forecasts and location-based data",
-      image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg",
-      tech: ["React", "JavaScript", "OpenWeather API", "Chart.js"],
-      github: "https://github.com",
-      live: "https://example.com"
+      title: "UniAttendance Application",
+      description: "Beautiful UniAttend app with Android Development",
+      image: Image3,
+      tech: ["XML", "Java", "SQLite DataBase"],
+      // github: "https://github.com",
+      // live: "https://example.com"
     },
     {
-      title: "Social Media Analytics",
-      description: "Analytics dashboard for social media metrics with data visualization",
-      image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg",
-      tech: ["React", "D3.js", "Express", "PostgreSQL"],
-      github: "https://github.com",
-      live: "https://example.com"
+      title: "Calculater",
+      description: "Simple Calculater",
+      image: Image4,
+      tech: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/prasadparve1255/Calculater",
+      // live: "https://example.com"
     }
   ];
 

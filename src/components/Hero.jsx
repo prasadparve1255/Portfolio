@@ -1,7 +1,7 @@
 import React from "react";
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
 import profileImage from "../assets/profile1.webp";
-import DownloadCV  from "../assets/prasad_parve_CV.pdf"
+import DownloadCV  from "../assets/PRASAD PARVE RESUME NEW.pdf"
 
 const Hero = () => {
   const scrollToAbout = () => {

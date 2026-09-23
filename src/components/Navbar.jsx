@@ -37,12 +37,12 @@ const Navbar = () => {
           </div>
           
           <div className="hidden md:block">
-            <div className="ml-10 flex place-items-center space-x-6 ">
+            <div className="ml-10 gradiented-buttons flex place-items-center space-x-6 ">
               {['home', 'about', 'projects', 'skills', 'contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
-                  className="text-white rounded-full px-3 py-2 hover:bg-[#d42d0887] transition-colors duration-300 capitalize font-extrabold"
+                  className="text-white rounded-full px-3 py-2 hover:bg-[#5444bb87] transition-colors duration-300 capitalize font-extrabold"
                 >
                   {item}
                 </button>

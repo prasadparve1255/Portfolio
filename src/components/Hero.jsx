@@ -29,8 +29,7 @@ const Hero = () => {
 
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 leading-relaxed max-w-2xl mx-auto lg:mx-0">
             I am a <strong>PostGraduate</strong> in computer science from Pune University🎓|
-            HTML | CSS | Bootstrap | JavaScript | Express.JS | MongoDB
-            | React.js | TailwindCSS | Node.JS |
+            Software Developer | VB.NET | ASP.NET Core | React.js | Node.js | SQL Server | MongoDB | REST APIs | ERP & Healthcare Software Development
           </p>
 
           <div className="flex justify-center lg:justify-start space-x-4 sm:space-x-6">
